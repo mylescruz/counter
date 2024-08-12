@@ -3,6 +3,10 @@ html, body {
     padding: 0;
 }
 
+* {
+    touch-action: manipulation;
+}
+
 body {
     font-family: sans-serif;
     background-color: rgb(200, 200, 120);
@@ -38,7 +42,7 @@ body {
 }
   
 #increase, #reset, #decrease {
-    height: 30px;
+    height: 50px;
     width: 100px;
     margin: 2em 2em;
     background-color: white;
