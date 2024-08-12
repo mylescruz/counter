@@ -30,9 +30,9 @@ body {
   
 .buttons {
     width: 100%;
-    margin: 0em 2em;
+    margin: 0;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
 }
@@ -40,7 +40,7 @@ body {
 #increase, #reset, #decrease {
     height: 30px;
     width: 100px;
-    margin: 1em 2em;
+    margin: 2em 2em;
     background-color: white;
     color: black;
     border-radius: 25px;
@@ -89,5 +89,9 @@ body {
     height: 500px;
     margin: 1em 0em;
     border-radius: 50px;
+}
+
+.buttons {
+    flex-direction: row;
 }
 }
